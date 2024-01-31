@@ -1,1 +1,1 @@
-# Brsk_-Technical-_Assessment
+# Brsk_Technical_Assessment
