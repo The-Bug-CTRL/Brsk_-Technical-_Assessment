@@ -38,14 +38,17 @@ Open your terminal or command prompt and run the following commands:
 ```bash
 git clone https://github.com/your-username/sentence-scrabbler.git
 cd sentence-scrabbler
-
+```
 #### Install Dependencies:
-pip install spacy requests
 
+```bash
+pip install spacy requests
+```
 #### Run the Program:
+```bash
 python -m spacy download en_core_web_md
 python sentence_scrabbler.py
-
+```
 ### Usage
 Enter Your Sentence
 You will be prompted to enter a sentence that you want to scramble.
