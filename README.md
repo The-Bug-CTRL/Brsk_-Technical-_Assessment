@@ -2,7 +2,7 @@
 
 Sentence Scrabbler is a Python program that takes a user-input sentence and rearranges its words using a list of English words obtained from a specified URL. The goal is to create a fun and scrambled version of the original sentence.
 
-## Navigation
+## Table of Contents
 
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
