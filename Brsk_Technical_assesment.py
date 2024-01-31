@@ -61,11 +61,20 @@ def mix_the_sentence_words(sentence, downloaded_words):
 # Displaying the menu
 menu = True
 
-# Looping through the menu until a sentence is provided and processed
-while menu:
-    sentence = input("Please enter your sentence you want to scrabble: ")
-    new_sentence = mix_the_sentence_words(sentence, downloaded_words)
+# Storing the original sentence to check if it's the same after scrambling
+original_sentence = input("Please enter your sentence you want to scrabble: ")
 
-    print(f"Your sentence: {sentence}")
+while menu:
+    # Scrambling the sentence
+    new_sentence = mix_the_sentence_words(original_sentence, downloaded_words)
+
+    print(f"Your original sentence: {original_sentence}")
     print(f"Your new sentence: {new_sentence}")
-    menu = False
+    
+    # Checking if the new sentence is the same as the original
+    if new_sentence == original_sentence:
+        print("Scrambling resulted in the original sentence. Exiting.")
+        break
+
+    # Asking the user if they want to scramble the sentence again
+    input("Press Enter to scramble again.")
