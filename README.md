@@ -39,3 +39,27 @@ Open your terminal or command prompt and run the following commands:
 git clone https://github.com/your-username/sentence-scrabbler.git
 cd sentence-scrabbler
 
+Install Dependencies:
+pip install spacy requests
+
+Run the Program:
+python -m spacy download en_core_web_md
+python sentence_scrabbler.py
+
+Usage
+Enter Your Sentence
+You will be prompted to enter a sentence that you want to scramble.
+
+Scramble the Sentence
+Press Enter, and the program will display the original and scrambled sentences.
+
+Scramble Again (or Exit)
+Press Enter again to scramble the original sentence differently. If the scrambled sentence becomes the same as the original, the program will exit.
+
+Configuration
+The program uses the spaCy medium English language model for Natural Language Processing.
+The English word list is downloaded from dwyl/english-words.
+The scrambling process involves selecting words of the same length and starting with the same letter, creating a playful and entertaining result.
+
+
+
